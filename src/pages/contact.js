@@ -28,7 +28,7 @@ export default class Contact extends React.Component {
         ...this.state
       })
     })
-      .then(() => navigateTo(form.getAttribute("action")))
+      .then(() => {/*navigateTo(form.getAttribute("action"))*/})
       .catch(error => alert(error));
   };
 
